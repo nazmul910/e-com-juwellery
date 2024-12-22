@@ -1,5 +1,5 @@
 <template>
-    <div class="relative  md:h-[90vh]">
+    <div id="contact" class="relative  md:h-[90vh]">
         <img src="../../../../image/ring7.jpg" class="h-[90vh] w-full object-cover"  alt="">
 
         <div class="absolute inset-0 flex justify-between px-5 py-10 md:px-4 md:py-4 md:p-16">
