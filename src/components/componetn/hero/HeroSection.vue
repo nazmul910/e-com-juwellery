@@ -4,7 +4,7 @@
 
 
 <template>
-  <div class="bg-orange-100 ">
+  <div id="home" class="bg-orange-100 ">
     <div class="container mx-auto p-8 grid lg:flex lg:justify-between lg:items-center"> 
       <div class="xm:mt-8 lg:py-9 lg:w-[70%]">
         <h1 class=" xm:text-[40px] text-6xl leading-tight md:text-7xl md:mt-10  lg:text-8xl">Elevate Your Everday  with Timeless <span class="font-unna"> Rings</span> </h1>
