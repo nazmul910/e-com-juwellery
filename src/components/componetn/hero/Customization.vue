@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-800 grid grid-cols-1 lg:flex justify-between ">
+  <div id="service" class="bg-red-800 grid grid-cols-1 lg:flex justify-between ">
    <div class="lg:w-[50%]">
     <div class="xm:p-5 sm:p-10 lg:grid  text-white">
       <h1 class="sm:text-6xl xm:text-5xl lg:text-7xl font-thin">Ring <span class="font-unna">Customization</span></h1>
