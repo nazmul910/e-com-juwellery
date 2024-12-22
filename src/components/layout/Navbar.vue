@@ -9,8 +9,8 @@ const isMenuOpen = ref(false);
     <div class="container mx-auto flex items-center justify-between">
 
       <div class="md:flex space-x-4 hidden md:block  ">
-        <a href="#" class="hidden md:block">Home</a>
-        <a href="#" class="hidden md:block">About</a>
+        <a href="#home" class="hidden md:block">Home</a>
+        <a href="#about" class="hidden md:block">About</a>
       </div>
 
 
@@ -18,8 +18,8 @@ const isMenuOpen = ref(false);
 
 
       <div class="flex space-x-4">
-        <a href="#" class="hidden md:block">Services</a>
-        <a href="#" class="hidden md:block">Contact</a>
+        <a href="#service" class="hidden md:block">Services</a>
+        <a href="#contact" class="hidden md:block">Contact</a>
       </div>
 
 
@@ -35,10 +35,10 @@ const isMenuOpen = ref(false);
       v-show="isMenuOpen"
       class="md:hidden  flex flex-col space-y-9 mt-2 italic font-thin  p-4   text-3xl"
     >
-      <li><a href="#" class="block">Home</a></li>
-      <li><a href="#" class="block">About</a></li>
-      <li><a href="#" class="block">Services</a></li>
-      <li><a href="#" class="block">Contact</a></li>
+      <li><a href="#home" class="block">Home</a></li>
+      <li><a href="#service" class="block">About</a></li>
+      <li><a href="#service" class="block">Services</a></li>
+      <li><a href="#contact" class="block">Contact</a></li>
     </ul>
   </nav>
 </template>
