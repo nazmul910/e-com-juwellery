@@ -42,3 +42,10 @@ const isMenuOpen = ref(false);
     </ul>
   </nav>
 </template>
+
+
+<style>
+html{
+  scroll-behavior: smooth;
+}
+</style>
